@@ -13,11 +13,8 @@ import NPI from "./Components/NPI";
 import HomePage from "./Components/HomePage";
 
 import { useState } from 'react';
-const Home = () => <h1>Home</h1>;
-
 
 const App = () => {
-
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   const handleToggleCollapse = () => {
@@ -27,14 +24,13 @@ const App = () => {
   return (
     <Router>
       <div>
-    
         <nav className="navbar navbar-expand-lg bg-white sticky-top">
           <div className="container-fluid p-0">
-            <a className="navbar-brand me-auto" href="/">
+            <Link className="navbar-brand me-auto" to="/">
               <img className="ps-3" src="/Images/Subtract.png" alt="Logo" height="50px" />
               <span className="text-black-50 ms-5 fs-6 fw-bold d-none d-md-inline" style={{ fontSize: '.9rem' }}>Call US:</span>
               <span className="text-black fs-6 fw-bold d-none d-md-inline" style={{ fontSize: '.9rem' }}>+91 70326 66100</span>
-            </a>
+            </Link>
             <div className="pe-3">
               <button type="button" className="navbar-toggler border-0 text-black" onClick={handleToggleCollapse}>
                 <img src="/Images/Union.svg" alt="" />
@@ -44,32 +40,32 @@ const App = () => {
             <div className={`collapse navbar-collapse bg-white ps-3 ${isCollapsed ? 'show' : ''}`} id="navbarText">
               <ul className="navbar-nav position-relative mx-auto mb-2 mb-lg-0 gap-0 gap-xxl-3">
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/">Home</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/aboutus">About Us</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/aboutus">About Us</Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link fw-bold text-black-50" aria-expanded="true" >Capability <span ><i className="fa fa-angle-down ms-1 drop-icon fs-6 fw-bold" data-bs-toggle="dropdown" style={{ color: 'rgb(7, 223, 7)', fontSize: '.9rem' }} aria-hidden="true"></i></span></a>
+                  <Link className="nav-link fw-bold text-black-50" to="#" aria-expanded="true">Capability <span ><i className="fa fa-angle-down ms-1 drop-icon fs-6 fw-bold" data-bs-toggle="dropdown" style={{ color: 'rgb(7, 223, 7)', fontSize: '.9rem' }} aria-hidden="true"></i></span></Link>
                   <ul className="dropdown-menu rounded-0 shadow border-0" style={{ backgroundColor: '#ffffffe7' }}>
-                    <li className=""><a className="dropdown-item text-black-50 fw-bold lh-lg" href="/NPI">New Product Introduction</a></li>
-                    <li className=""><a className="dropdown-item text-black-50 fw-bold lh-lg" href="/PCB">PCB Assembly & Box Build</a></li>
-                    <li className=""><a className="dropdown-item text-black-50 fw-bold lh-lg" href="/EMF">Electronic Manufacturing</a></li>
-                    <li className=""><a className="dropdown-item text-black-50 fw-bold lh-lg" href="/product-testing">Product Testing</a></li>
-                    <li className=""><a className="dropdown-item text-black-50 fw-bold lh-lg" href="/AfterSales">After Sales & Warranty</a></li>
+                    <li className=""><Link className="dropdown-item text-black-50 fw-bold lh-lg" to="/NPI">New Product Introduction</Link></li>
+                    <li className=""><Link className="dropdown-item text-black-50 fw-bold lh-lg" to="/PCB">PCB Assembly & Box Build</Link></li>
+                    <li className=""><Link className="dropdown-item text-black-50 fw-bold lh-lg" to="/EMF">Electronic Manufacturing</Link></li>
+                    <li className=""><Link className="dropdown-item text-black-50 fw-bold lh-lg" to="/product-testing">Product Testing</Link></li>
+                    <li className=""><Link className="dropdown-item text-black-50 fw-bold lh-lg" to="/AfterSales">After Sales & Warranty</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/CustomerLogin">Customer Portal</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/CustomerLogin">Customer Portal</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/Gallery">Gallery</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/Gallery">Gallery</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/Contactus">Contact Us</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/Contactus">Contact Us</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/Blog">Blog</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/Blog">Blog</Link>
                 </li>
               </ul>
 
@@ -107,4 +103,3 @@ const App = () => {
 };
 
 export default App;
-
