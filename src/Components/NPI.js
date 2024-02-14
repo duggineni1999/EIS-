@@ -934,6 +934,71 @@ const NPI = () => {
               </div>
           </section>
 
+
+          <footer className="position-relative" style={{ backgroundColor: '#01813B' }}>
+              <div className="container p-sm-3 p-md-4 p-lg-5 py-5">
+                  <div>
+                      <div className="row">
+                          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
+                              <div className="address-layout">
+                                  <h6 className="footer-heading mb-4">Registered Office</h6>
+                                  <p className="plant-address-des">Plot No.25/B, HardwarePark, Kancha Imarat, Pahadi Shareef, Srisailam Highway, Hyderabad – 500005, Telangana, India.</p>
+
+                                  <h6 className="footer-heading mb-4">Plant Address</h6>
+                                  <p className="plant-address-des">Plot No.5, Fab City SEZ, Srinagar Village, Maheshwaram Mandal, Ranga Reddy District, Hyderabad – 501359, Telangana, India.</p>
+                              </div>
+                          </div>
+                          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
+                              <div className="quicklink-layout">
+                                  <h6 className="quick-head">Quick links</h6>
+                                  <p className="des-link m-0">Home</p>
+                                  <p className="des-link m-0">About us</p>
+                                  <p className="des-link m-0">Capabilities</p>
+                                  <p className="des-link m-0">Facilities</p>
+                                  <p className="des-link m-0">Industries</p>
+                                  <p className="des-link m-0">Gallery</p>
+                                  <p className="des-link m-0">Clients</p>
+                                  <p className="des-link m-0">Contact Us</p>
+                                  <p className="des-link m-0">Blog</p>
+                              </div>
+                          </div>
+                          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
+                              <div className="contact-layout">
+                                  <h6 className="contact-head">Contact Us</h6>
+                                  <h6 className="contact-phone">+91-7032666100</h6>
+                                  <h6 className="contact-email">mail: enquiry@embedits.com</h6>
+                                  <h6 className="social">Social</h6>
+                                  <div className="d-flex justify-content-between mt-5" style={{ width: '150px' }}>
+                                      <i className="fb-layout fas fa-brands fa-facebook-f"></i>
+                                      <i className="insta-layout fas fa-brands fa-instagram"></i>
+                                      <i className="twi-layout fas fa-brands fa-twitter"></i>
+                                      <i className="you-layout fas fa-brands fa-youtube"></i>
+                                  </div>
+                              </div>
+                          </div>
+                          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
+                              <div className="location-layout">
+                                  <h6 className="location-head">Location</h6>
+                                  <div className="location-map mt-3">
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15245.827696226495!2d78.4921026!3d17.1966093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba4d8b485172d%3A0x935b54b1d7579269!2sEmbedded%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1703761792241!5m2!1sen!2sin" width="100%" height="290" style={{ border: '0' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div className="customer-login">
+                  <div className="whats-app-icon">
+                      <img className="img-fluid" src="/images/Group 3706.png" alt="" />
+                  </div>
+              </div>
+
+              <div style={{ backgroundColor: '#096935' }}>
+                  <h6 className="copyright py-4 text-center m-0">© 2023 embedits.com, All rights reserved</h6>
+              </div>
+          </footer>
+
     </div>
   )
 }
