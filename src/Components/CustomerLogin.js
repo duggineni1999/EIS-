@@ -221,7 +221,7 @@ function CustomerLogin() {
 
               <div className="customer-login">
                   <div className="whats-app-icon">
-                      <img className="img-fluid" src="/images/Group 3706.png" alt="" />
+                      <img className="img-fluid" src="/Images/Group 3706.png" alt="" />
                   </div>
               </div>
 

@@ -69,7 +69,7 @@ function EMF() {
                     </div>
                 </div>
                 <div className="position-absolute" style={{ top: "40%", right: "3%" }}>
-                    <img src="/images/Group 2.png" alt="" />
+                    <img src="/Images/Group 2.png" alt="" />
                 </div>
 
 
@@ -88,7 +88,7 @@ function EMF() {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-3 service-icons">
                                 <div className="card1    mb-3">
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3 pt-2 pt-sm-3">Printed circuit board assembly (PCBA)</h6>
                                         </div>
@@ -97,7 +97,7 @@ function EMF() {
 
                                 <div className="card2 " style={{ background: "#00A94D !important" }}>
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3">Equipped with surface mount technology (SMT) and plated through hole boards (PTH)</h6>
                                         </div>
@@ -108,7 +108,7 @@ function EMF() {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 service-icons ">
                                 <div className="card3  mb-3  " style={{ background: "#00A94D !important" }}>
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3">Electronic Cable & Harness Assembly Design and Processes</h6>
                                         </div>
@@ -117,7 +117,7 @@ function EMF() {
 
                                 <div className="card1  mb-3 ">
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3 pt-2 pt-lg-3">Conformal/ Protective coating</h6>
                                         </div>
@@ -126,7 +126,7 @@ function EMF() {
 
                                 <div className="card1   mb-3 " style={{ background: "#00A94D !important" }}>
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3">IPC 7711 Certified Rework Operators. IPC610 Certified Engineers</h6>
                                         </div>
@@ -136,7 +136,7 @@ function EMF() {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-3 service-icons">
                                 <div className="card1  mb-3 ">
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3 pt-2 pt-lg-3">Box Build Assemblies</h6>
                                         </div>
@@ -144,7 +144,7 @@ function EMF() {
                                 </div>
                                 <div className="card1  mb-3 " style={{ background: "#00A94D !important" }}>
                                     <div className="d-flex  service-icons">
-                                        <img className='' src='/images/Group.png'></img>
+                                        <img className='' src='/Images/Group.png'></img>
                                         <div className="ms-4" style={{ width: '280px !important' }}>
                                             <h6 className="card-text-3">Robotic and Manual Testing and inspection services</h6>
                                         </div>
@@ -175,25 +175,25 @@ function EMF() {
                                 has largely replaced through-hole technology
                                 due to its efficiency, space-saving benefits,
                                 and suitability for high-volume production.</p>
-                            <img className="row1-image mt-3" src="/images/image 35.jpg" alt="" />
+                            <img className="row1-image mt-3" src="/Images/image 35.jpg" alt="" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6  mb-5 ps-lg-1">
                             <h6 className="row2-heading">Plated Through Hole Boards (PTH)</h6>
-                            <img className="row2-image mt-3" src="/images/image 36.jpg" alt="" />
+                            <img className="row2-image mt-3" src="/Images/image 36.jpg" alt="" />
                                 <p className="row2-decs mt-3">"Plated Through Hole (PTH) boards" service refers to a method of electronic circuit board manufacturing where holes are drilled through the board, and these holes are then plated with metal to create electrical connections between different layers of the board. This process is in contrast to surface mount technology (SMT), where components are placed directly onto the surface of the board.</p>
                         </div>
 
                     </div>
                     <div className="row my-5">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3 ">
-                            <img className="w-100" src="/images/image 37.png" alt="" />
+                            <img className="w-100" src="/Images/image 37.png" alt="" />
 
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <img className="w-100" src="/images/image 38.png" alt="" />
+                            <img className="w-100" src="/Images/image 38.png" alt="" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <img className="w-100" src="/images/image 39.png" alt="" />
+                            <img className="w-100" src="/Images/image 39.png" alt="" />
                         </div>
                     </div>
 
@@ -213,7 +213,7 @@ function EMF() {
                                               <h6 className="owl-heading">SMT Line 1 – XP Series</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: '31%', left: '45%', width: '50px' }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -231,7 +231,7 @@ function EMF() {
                                               <h6 className="owl-heading">SMT Line 2 – Fuji NXT II</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -247,7 +247,7 @@ function EMF() {
                                               <h6 className="owl-heading">X-Ray line</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -263,7 +263,7 @@ function EMF() {
                                               <h6 className="owl-heading">SMT Line 3 – Fuji AIMEX IIIC</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -557,8 +557,8 @@ function EMF() {
 
             </section>
 
-            <section className="container-fluid p-0 emf" id="">
-                <div className="py-5 about-us-section-bg " style={{ backgroundColor: 'rgba(9,133,65,255)'}}>
+            <section className="container-fluid p-0">
+                <div className="py-5" style={{ backgroundColor: 'rgba(9,133,65,255)', backgroundImage: "url(Images/image\\ 9.png)" }}>
                     <div className="container py-5">
                         <div className="row">
                             <div className="col-12 col-lg-6">
@@ -566,7 +566,7 @@ function EMF() {
                                 <div className="ps-lg-3">
                                     <h6 className="section8-row-head2 mt-4">Our Recognition & Awards</h6>
                                     <div>
-                                        <h6 className="section8-row-head3 mt-5"> Certified for IATF 16949:2016 International Automotive Task Force </h6>
+                                        <h6 className="section8-row-head3 mt-5"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
                                         <h6 className="section8-row-head3 mt-3">Certified for ISO 9001:2015 Quality Management Systems</h6>
                                         <h6 className="section8-row-head3 mt-3">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
                                         <h6 className="section8-row-head3 mt-3">Certified for 14001:2015 Environmental Management Systems</h6>
@@ -577,26 +577,26 @@ function EMF() {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6">
-                                <h6 className="section8-row-head mt-5 text-uppercase">Our Gallery</h6>
+                                <h6 className="section8-row-head mt-5">Our Gallery</h6>
                                 <div className="ps-lg-3">
                                     <h6 className="section8-row-head2 mt-4">FUTURE READY INFRASTRUCTURE and State of the art facilities.</h6>
                                     <div className="row my-5">
                                         <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                             <div className="d-flex flex-column gap-3">
-                                                <img className="w-100" style={{ height: '150px' }} src="images/IMG_20190326_125922 3.png" alt="" />
-                                                <img className="w-100" style={{ height: '150px' }} src="images/IMG_20190326_125922 7.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 3.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 7.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                             <div className="d-flex flex-column gap-3">
-                                                <img className="w-100 col-12" style={{ height: '150px' }} src="images/Rectangle 1445.png" alt="" />
-                                                <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1447.png" alt="" />
+                                                <img className="w-100 col-12" style={{ height: '150px' }} src="/Images/Rectangle 1445.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1447.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                             <div className="d-flex flex-column gap-3">
-                                                <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1450.png" alt="" />
-                                                <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1456.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1450.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1456.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -769,7 +769,7 @@ function EMF() {
 
                 <div className="customer-login">
                     <div className="whats-app-icon">
-                        <img className="img-fluid" src="/images/Group 3706.png" alt="" />
+                        <img className="img-fluid" src="/Images/Group 3706.png" alt="" />
                     </div>
                 </div>
 

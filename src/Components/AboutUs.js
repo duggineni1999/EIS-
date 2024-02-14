@@ -531,8 +531,8 @@ function Aboutus() {
                 </section>
             </section>
 
-            <section className="container-fluid p-0 emf" id="">
-                <div className="py-5 about-us-section-bg " style={{ backgroundColor: 'rgba(9,133,65,255)'}}>
+            <section className="container-fluid p-0">
+                <div className="py-5" style={{ backgroundColor: 'rgba(9,133,65,255)', backgroundImage: "url(Images/image\\ 9.png)" }}>
                     <div className="container py-5">
                         <div className="row">
                             <div className="col-12 col-lg-6">
@@ -540,7 +540,7 @@ function Aboutus() {
                                 <div className="ps-lg-3">
                                     <h6 className="section8-row-head2 mt-4">Our Recognition & Awards</h6>
                                     <div>
-                                        <h6 className="section8-row-head3 mt-5"> Certified for IATF 16949:2016 International Automotive Task Force </h6>
+                                        <h6 className="section8-row-head3 mt-5"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
                                         <h6 className="section8-row-head3 mt-3">Certified for ISO 9001:2015 Quality Management Systems</h6>
                                         <h6 className="section8-row-head3 mt-3">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
                                         <h6 className="section8-row-head3 mt-3">Certified for 14001:2015 Environmental Management Systems</h6>
@@ -551,26 +551,26 @@ function Aboutus() {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6">
-                                <h6 className="section8-row-head mt-5 text-uppercase">Our Gallery</h6>
+                                <h6 className="section8-row-head mt-5">Our Gallery</h6>
                                 <div className="ps-lg-3">
                                     <h6 className="section8-row-head2 mt-4">FUTURE READY INFRASTRUCTURE and State of the art facilities.</h6>
                                     <div className="row my-5">
                                         <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                             <div className="d-flex flex-column gap-3">
-                                                <img className="w-100" style={{ height: '150px' }} src="images/IMG_20190326_125922 3.png" alt="" />
-                                                <img className="w-100" style={{ height: '150px' }} src="images/IMG_20190326_125922 7.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 3.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 7.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                             <div className="d-flex flex-column gap-3">
-                                                <img className="w-100 col-12" style={{ height: '150px' }} src="images/Rectangle 1445.png" alt="" />
-                                                <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1447.png" alt="" />
+                                                <img className="w-100 col-12" style={{ height: '150px' }} src="/Images/Rectangle 1445.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1447.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                             <div className="d-flex flex-column gap-3">
-                                                <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1450.png" alt="" />
-                                                <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1456.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1450.png" alt="" />
+                                                <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1456.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -907,7 +907,7 @@ function Aboutus() {
 
                 <div className="customer-login">
                     <div className="whats-app-icon">
-                        <img className="img-fluid" src="/images/Group 3706.png" alt="" />
+                        <img className="img-fluid" src="/Images/Group 3706.png" alt="" />
                     </div>
                 </div>
 

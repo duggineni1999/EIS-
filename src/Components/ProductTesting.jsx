@@ -73,10 +73,10 @@ function ProductTesting() {
           <div className="row py-5">
             <div className="col-12 col-md-6 mb-4">
               <h6 className="p2-section3-row1-decs">We provide our clients with a broad range of services, including product testing, test design, and development tailored to ensure the successful commercialization and enhanced profitability of your products. Collaborating closely with you,</h6>
-              <img className="w-100 mt-5 img-fluid" src="/images/image 40.jpg" alt="" />
+              <img className="w-100 mt-5 img-fluid" src="/Images/image 40.jpg" alt="" />
             </div>
             <div className="col-12 col-md-6 ps-lg-5">
-              <img className="img-fluid" src="/images/image 41.jpg" alt="" />
+              <img className="img-fluid" src="/Images/image 41.jpg" alt="" />
               <p className="mt-5 p2-row2-decs">EIS specializes in crafting test strategies and methods that empower you to manage inventory efficiently, boost profitability, and expedite both time-to-volume and time-to-market for all the products we manufacture.</p>
               <p className="mt-5 p2-row2-decs">Through our collaborative program management model, we offer comprehensive product testing support throughout your product's entire lifecycle. This includes support from initial pilot and production builds, initial testing, tooling, systems testing, to final production. Your project stands to gain from EIS's accumulated years of expertise in test design, development, and execution, as well as in New Production Introduction (NPI) and both general and custom manufacturing transfers.</p>
             </div>
@@ -157,7 +157,7 @@ function ProductTesting() {
                         <h6 className="owl-heading">SMT Line 1 – XP Series</h6>
                         <div className="inner mb-2">
                           <a href="" target="_blank">
-                            <img src="/images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                            <img src="/Images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                           </a>
                           <img className="position-absolute" style={{ top: '31%', left: '45%', width: '50px' }} src="images/Group 3701.png" alt="" />
                         </div>
@@ -175,7 +175,7 @@ function ProductTesting() {
                         <h6 className="owl-heading">SMT Line 2 – Fuji NXT II</h6>
                         <div className="inner mb-2">
                           <a href="" target="_blank">
-                            <img src="/images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                            <img src="/Images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                           </a>
                           <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                         </div>
@@ -191,7 +191,7 @@ function ProductTesting() {
                         <h6 className="owl-heading">X-Ray line</h6>
                         <div className="inner mb-2">
                           <a href="" target="_blank">
-                            <img src="/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                            <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                           </a>
                           <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                         </div>
@@ -207,7 +207,7 @@ function ProductTesting() {
                         <h6 className="owl-heading">SMT Line 3 – Fuji AIMEX IIIC</h6>
                         <div className="inner mb-2">
                           <a href="" target="_blank">
-                            <img src="/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                            <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                           </a>
                           <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                         </div>
@@ -503,54 +503,54 @@ function ProductTesting() {
       </section>
 
 
-      <section className="container-fluid p-0" id="">
-        <div className="py-5 about-us-section-bg" style={{ backgroundColor: 'rgba(9,133,65,255)'}}>
-          <div className="container py-5">
-            <div className="row">
-              <div className="col-12 col-lg-6">
-                <h6 className="section8-row-head mt-5">CERTIFICATIONS & COMPLIANCES</h6>
-                <div className="ps-lg-3">
-                  <h6 className="section8-row-head2 mt-4">Our Recognition & Awards</h6>
-                  <div>
-                    <h6 className="section8-row-head3 mt-5"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
-                    <h6 className="section8-row-head3 mt-3">Certified for ISO 9001:2015 Quality Management Systems</h6>
-                    <h6 className="section8-row-head3 mt-3">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
-                    <h6 className="section8-row-head3 mt-3">Certified for 14001:2015 Environmental Management Systems</h6>
-                    <h6 className="section8-row-head3 mt-3">Certified for 45001:2018 health and safety Systems</h6>
-                    <h6 className="section8-row-head3 mt-3">Certified for ISO / IEC 27002-2013</h6>
-                    <h6 className="section8-row-head3 mt-3">Certified for Responsible Business Alliance</h6>
-                  </div>
+      <section className="container-fluid p-0">
+            <div className="py-5" style={{ backgroundColor: 'rgba(9,133,65,255)', backgroundImage: "url(Images/image\\ 9.png)" }}>
+                <div className="container py-5">
+                    <div className="row">
+                        <div className="col-12 col-lg-6">
+                            <h6 className="section8-row-head mt-5">CERTIFICATIONS & COMPLIANCES</h6>
+                            <div className="ps-lg-3">
+                                <h6 className="section8-row-head2 mt-4">Our Recognition & Awards</h6>
+                                <div>
+                                    <h6 className="section8-row-head3 mt-5"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
+                                    <h6 className="section8-row-head3 mt-3">Certified for ISO 9001:2015 Quality Management Systems</h6>
+                                    <h6 className="section8-row-head3 mt-3">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
+                                    <h6 className="section8-row-head3 mt-3">Certified for 14001:2015 Environmental Management Systems</h6>
+                                    <h6 className="section8-row-head3 mt-3">Certified for 45001:2018 health and safety Systems</h6>
+                                    <h6 className="section8-row-head3 mt-3">Certified for ISO / IEC 27002-2013</h6>
+                                    <h6 className="section8-row-head3 mt-3">Certified for Responsible Business Alliance</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <h6 className="section8-row-head mt-5">Our Gallery</h6>
+                            <div className="ps-lg-3">
+                                <h6 className="section8-row-head2 mt-4">FUTURE READY INFRASTRUCTURE and State of the art facilities.</h6>
+                                <div className="row my-5">
+                                    <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
+                                        <div className="d-flex flex-column gap-3">
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 3.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 7.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
+                                        <div className="d-flex flex-column gap-3">
+                                            <img className="w-100 col-12" style={{ height: '150px' }} src="/Images/Rectangle 1445.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1447.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
+                                        <div className="d-flex flex-column gap-3">
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1450.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1456.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div className="col-12 col-lg-6">
-                <h6 className="section8-row-head mt-5 text-uppercase">Our Gallery</h6>
-                <div className="ps-lg-3">
-                  <h6 className="section8-row-head2 mt-4">FUTURE READY INFRASTRUCTURE and State of the art facilities.</h6>
-                  <div className="row my-5">
-                    <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                      <div className="d-flex flex-column gap-3">
-                        <img className="w-100" style={{ height: '150px' }} src="/images/IMG_20190326_125922 3.png" alt="" />
-                        <img className="w-100" style={{ height: '150px' }} src="/images/IMG_20190326_125922 7.png" alt="" />
-                      </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                      <div className="d-flex flex-column gap-3">
-                        <img className="w-100 col-12" style={{ height: '150px' }} src="/images/Rectangle 1445.png" alt="" />
-                        <img className="w-100" style={{ height: '150px' }} src="/images/Rectangle 1447.png" alt="" />
-                      </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                      <div className="d-flex flex-column gap-3">
-                        <img className="w-100" style={{ height: '150px' }} src="/images/Rectangle 1450.png" alt="" />
-                        <img className="w-100" style={{ height: '150px' }} src="/images/Rectangle 1456.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
       </section>
 
       
@@ -716,7 +716,7 @@ function ProductTesting() {
 
         <div className="customer-login">
           <div className="whats-app-icon">
-            <img className="img-fluid" src="/images/Group 3706.png" alt="" />
+            <img className="img-fluid" src="/Images/Group 3706.png" alt="" />
           </div>
         </div>
 

@@ -166,7 +166,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">SMT Line 1 – XP Series</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/public/Images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: '31%', left: '45%', width: '50px' }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -184,7 +184,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">SMT Line 2 – Fuji NXT II</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/public/Images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -200,7 +200,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">X-Ray line</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/public/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -216,7 +216,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">SMT Line 3 – Fuji AIMEX IIIC</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/public/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -804,20 +804,20 @@ const NPI = () => {
                                 <div className="row my-5">
                                     <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                         <div className="d-flex flex-column gap-3">
-                                            <img className="w-100" style={{ height: '150px' }} src="images/IMG_20190326_125922 3.png" alt="" />
-                                            <img className="w-100" style={{ height: '150px' }} src="images/IMG_20190326_125922 7.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 3.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/IMG_20190326_125922 7.png" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                         <div className="d-flex flex-column gap-3">
-                                            <img className="w-100 col-12" style={{ height: '150px' }} src="images/Rectangle 1445.png" alt="" />
-                                            <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1447.png" alt="" />
+                                            <img className="w-100 col-12" style={{ height: '150px' }} src="/Images/Rectangle 1445.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1447.png" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
                                         <div className="d-flex flex-column gap-3">
-                                            <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1450.png" alt="" />
-                                            <img className="w-100" style={{ height: '150px' }} src="images/Rectangle 1456.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1450.png" alt="" />
+                                            <img className="w-100" style={{ height: '150px' }} src="/Images/Rectangle 1456.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -990,7 +990,7 @@ const NPI = () => {
 
               <div className="customer-login">
                   <div className="whats-app-icon">
-                      <img className="img-fluid" src="/images/Group 3706.png" alt="" />
+                      <img className="img-fluid" src="/Images/Group 3706.png" alt="" />
                   </div>
               </div>
 
