@@ -125,7 +125,7 @@ function PCB() {
                           <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-3 service-icons">
                               <div className="card1 mb-3">
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png'/>
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3 ">Single sided, double sided SMT, through hole and mixed technology assemblies</h6>
                                       </div>
@@ -134,7 +134,7 @@ function PCB() {
 
                               <div className="card2 mb-3 " style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3">PCB assemblies as per RoHS compliance</h6>
                                       </div>
@@ -142,7 +142,7 @@ function PCB() {
                               </div>
                               <div className="card1    mb-3">
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3 ">Automated Optical Inspection(AOI) after reflow to ensure defect free products to customers</h6>
                                       </div>
@@ -151,7 +151,7 @@ function PCB() {
 
                               <div className="card2 " style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3">Capable of handling BGA reworks on lead less packages</h6>
                                       </div>
@@ -162,7 +162,7 @@ function PCB() {
                           <div className="col-12 col-sm-12 col-md-12 col-lg-4 service-icons ">
                               <div className="card3  mb-3  " style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3">Capable of handling 01005 chip components, BGAs, micro BGAs, CSPs, QFNs and other lead less packages</h6>
                                       </div>
@@ -171,7 +171,7 @@ function PCB() {
 
                               <div className="card1  mb-3 ">
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3 ">Products will be manufactured as per IPC standards and customer specifications</h6>
                                       </div>
@@ -180,7 +180,7 @@ function PCB() {
 
                               <div className="card1   mb-3 "style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3">Box build assembly and inspection services with plastic, metal and cable assemblies.</h6>
                                       </div>
@@ -188,7 +188,7 @@ function PCB() {
                               </div>
                               <div className="card1   mb-3 " style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png'/>
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3">Capable of BGA re-balling using micro stencils</h6>
                                       </div>
@@ -198,7 +198,7 @@ function PCB() {
                           <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-3 service-icons">
                               <div className="card1  mb-3 ">
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3 ">system tests on box-build assemblies based on functional test requirements as per customer specifications</h6>
                                       </div>
@@ -206,7 +206,7 @@ function PCB() {
                               </div>
                               <div className="card1  mb-3 " style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                  <img className='' src='/images/Group.png'></img>
+                                  <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3 pt-2">Single and multi layered boards</h6>
                                       </div>
@@ -214,7 +214,7 @@ function PCB() {
                               </div>
                               <div className="card1  mb-3 " style={{background: '#00A94D !important'}}>
                                   <div className="d-flex  service-icons">
-                                    <img className='' src='/images/Group.png'></img>
+                                    <img className='' src='/images/Group.png' />
                                       <div className="ms-4" style={{width: '280px !important'}}>
                                           <h6 className="card-text-3">Solder paste inspection after paste printing to minimize soldering defects</h6>
                                       </div>
@@ -246,7 +246,7 @@ function PCB() {
                                               <h6 className="owl-heading">SMT Line 1 – XP Series</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: '31%', left: '45%', width: '50px' }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -264,7 +264,7 @@ function PCB() {
                                               <h6 className="owl-heading">SMT Line 2 – Fuji NXT II</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -280,7 +280,7 @@ function PCB() {
                                               <h6 className="owl-heading">X-Ray line</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                               </div>
@@ -296,7 +296,7 @@ function PCB() {
                                               <h6 className="owl-heading">SMT Line 3 – Fuji AIMEX IIIC</h6>
                                               <div className="inner mb-2">
                                                   <a href="" target="_blank">
-                                                      <img src="/images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                      <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                   </a>
                                                   <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                               </div>
