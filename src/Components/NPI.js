@@ -166,7 +166,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">SMT Line 1 – XP Series</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/Images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/Images/IMG_20190326_125922 7.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: '31%', left: '45%', width: '50px' }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -184,7 +184,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">SMT Line 2 – Fuji NXT II</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/Images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/Images/Add On.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -200,7 +200,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">X-Ray line</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                             </div>
@@ -216,7 +216,7 @@ const NPI = () => {
                                             <h6 className="owl-heading">SMT Line 3 – Fuji AIMEX IIIC</h6>
                                             <div className="inner mb-2">
                                                 <a href="" target="_blank">
-                                                    <img src="/public/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
+                                                    <img src="/Images/Fuji NXTII 4.png" alt="" height="200px" className="card-img-top rounded-0 img-fluid position-relative" />
                                                 </a>
                                                 <img className="position-absolute" style={{ top: "35%", left: "45%", width: "50px" }} src="images/Group 3701.png" alt="" />
                                             </div>
