@@ -51,10 +51,7 @@ function CustomerLogin() {
                 // Handle error
             }
         }
-        setFormData({
-            customerId: '',
-            password: ''
-        });
+        
     };
     
 
