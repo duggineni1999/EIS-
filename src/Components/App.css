@@ -1268,6 +1268,41 @@ header h2{
 #home_header .scroll-img{
     fill: white;
 }
+
+#home_header {
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#home_header .scroll{
+    position: absolute;
+    right: 50px ;
+    bottom: 80px ;
+}
+#home_header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(48, 47, 47, 0.575);
+    z-index: -1;
+}
+
+#home_header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
 #home_header h1{
 font-family: 'Montserrat',sans-serif;
 font-size: 65px;

@@ -37,14 +37,14 @@ function CustomerLogin() {
                 password: formData.password
             };
     
-                const response = await axios.post('http://localhost:5000/login', data, {
+                const response = await axios.post('https://eis-website-backend.onrender.com/login', data, {
                     headers: {
                         'Content-Type': 'application/json'
                     }
                 });
                 console.log(response.data);
                 toast.success('Form submitted successfully!');
-                
+
             } catch (error) {
                 console.error('Error submitting form:', error);
                 toast.error('Error submitting form:', error.message);
