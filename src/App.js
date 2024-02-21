@@ -2,13 +2,13 @@ import React, { useState, useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProductTesting from "./Components/ProductTesting";
 import AboutUs from "./Components/AboutUs";
-import EMF from './Components/EMF'
+import EMF from './Components/EMF';
 import ContactUs from "./Components/ContactUs";
-import CustomerLogin from "./Components/CustomerLogin"
-import Gallery from './Components/Gallery'
-import Blog from './Components/Blog'
+import CustomerLogin from "./Components/CustomerLogin";
+import Gallery from './Components/Gallery';
+import Blog from './Components/Blog';
 import AfterSales from "./Components/AfterSales";
-import PCB from "./Components/PCB"
+import PCB from "./Components/PCB";
 import NPI from "./Components/NPI";
 import HomePage from "./Components/HomePage";
 
@@ -31,6 +31,11 @@ const App = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
+  }, []);
+
+  // Redirect to home page on refresh
+  useEffect(() => {
+    window.location.href = "/";
   }, []);
 
   return (
@@ -68,16 +73,16 @@ const App = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="https://eis-website.onrender.com/CustomerLogin">Customer Portal</a>
+                  <a className="nav-link fw-bold text-black-50" href="/CustomerLogin">Customer Portal</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="https://eis-website.onrender.com/Gallery">Gallery</a>
+                  <a className="nav-link fw-bold text-black-50" href="/Gallery">Gallery</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="https://eis-website.onrender.com/Contactus">Contact Us</a>
+                  <a className="nav-link fw-bold text-black-50" href="/Contactus">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="https://eis-website.onrender.com/Blog">Blog</a>
+                  <a className="nav-link fw-bold text-black-50" href="/Blog">Blog</a>
                 </li>
               </ul>
 
@@ -111,7 +116,6 @@ const App = () => {
         </Routes>
       </div>
     </Router>
-
   );
 };
 
