@@ -12,14 +12,14 @@ import PCB from "./Components/PCB"
 import NPI from "./Components/NPI";
 import HomePage from "./Components/HomePage";
 
+import { useState } from 'react';
+
 const App = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const collapseRef = useRef(null);
-
   const handleToggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
   };
-
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (collapseRef.current && !collapseRef.current.contains(event.target)) {
@@ -38,18 +38,18 @@ const App = () => {
       <div>
         <nav className="navbar navbar-expand-lg bg-white sticky-top">
           <div className="container-fluid p-0">
-            <a className="navbar-brand me-auto" href="https://eis-website.onrender.com/">
+            <Link className="navbar-brand me-auto" to="/">
               <img className="ps-3" src="/Images/Subtract.png" alt="Logo" height="50px" />
               <span className="text-black-50 ms-5 fs-6 fw-bold d-none d-md-inline" style={{ fontSize: '.9rem' }}>Call US:</span>
               <span className="text-black fs-6 fw-bold d-none d-md-inline" style={{ fontSize: '.9rem' }}>+91 70326 66100</span>
-            </a>
+            </Link>
             <div className="pe-3">
               <button type="button" className="navbar-toggler border-0 text-black" onClick={handleToggleCollapse}>
                 <img src="/Images/Union.svg" alt="" />
               </button>
             </div>
 
-            <div className={`collapse navbar-collapse bg-white ps-3 ${isCollapsed ? 'show' : ''}`} id="navbarText" ref={collapseRef}>
+            <div className={`collapse navbar-collapse bg-white ps-3 ${isCollapsed ? 'show' : ''}`} id="navbarText">
               <ul className="navbar-nav position-relative mx-auto mb-2 mb-lg-0 gap-0 gap-xxl-3">
                 <li className="nav-item">
                   <Link className="nav-link fw-bold text-black-50" to="/">Home</Link>
@@ -68,16 +68,16 @@ const App = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/CustomerLogin">Customer Portal</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/CustomerLogin">Customer Portal</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/Gallery">Gallery</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/Gallery">Gallery</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/Contactus">Contact Us</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/Contactus">Contact Us</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fw-bold text-black-50" href="/Blog">Blog</a>
+                  <Link className="nav-link fw-bold text-black-50" to="/Blog">Blog</Link>
                 </li>
               </ul>
 
@@ -95,7 +95,7 @@ const App = () => {
             </div>
           </div>
         </nav>
-
+        
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/aboutus" element={<AboutUs />} />
@@ -105,13 +105,12 @@ const App = () => {
           <Route path="/PCB" element={<PCB />} />
           <Route path="/AfterSales" element={<AfterSales />} />
           <Route path="/CustomerLogin" element={<CustomerLogin />} />
-          <Route path="/ContactUS" element={<ContactUs />} />
+          <Route path="/Contactus" element={<ContactUs />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
     </Router>
-
   );
 };
 
