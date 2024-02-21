@@ -94,19 +94,21 @@ const App = () => {
           </div>
         </nav>
         
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/product-testing" element={<ProductTesting />} />
-          <Route path="/EMF" element={<EMF />} />
-          <Route path="/NPI" element={<NPI />} />
-          <Route path="/PCB" element={<PCB />} />
-          <Route path="/AfterSales" element={<AfterSales />} />
-          <Route path="/CustomerLogin" element={<CustomerLogin />} />
-          <Route path="/Contactus" element={<ContactUs />} />
-          <Route path="/Gallery" element={<Gallery />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/aboutus" component={AboutUs} />
+          <Route path="/product-testing" component={ProductTesting} />
+          <Route path="/EMF" component={EMF} />
+          <Route path="/NPI" component={NPI} />
+          <Route path="/PCB" component={PCB} />
+          <Route path="/AfterSales" component={AfterSales} />
+          <Route path="/CustomerLogin" component={CustomerLogin} />
+          <Route path="/Contactus" component={ContactUs} />
+          <Route path="/Gallery" component={Gallery} />
+          <Route path="/blog" component={Blog} />
+          {/* Add a Route for Not Found */}
+          <Route component={NotFound} />
+        </Switch>
       </div>
     </Router>
   );
