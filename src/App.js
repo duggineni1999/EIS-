@@ -2,20 +2,19 @@ import React, { useState, useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProductTesting from "./Components/ProductTesting";
 import AboutUs from "./Components/AboutUs";
-import EMF from './Components/EMF';
+import EMF from './Components/EMF'
 import ContactUs from "./Components/ContactUs";
-import CustomerLogin from "./Components/CustomerLogin";
-import Gallery from './Components/Gallery';
-import Blog from './Components/Blog';
+import CustomerLogin from "./Components/CustomerLogin"
+import Gallery from './Components/Gallery'
+import Blog from './Components/Blog'
 import AfterSales from "./Components/AfterSales";
-import PCB from "./Components/PCB";
+import PCB from "./Components/PCB"
 import NPI from "./Components/NPI";
 import HomePage from "./Components/HomePage";
 
 const App = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const collapseRef = useRef(null);
-  const [redirected, setRedirected] = useState(false); // Flag to track redirection
 
   const handleToggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
@@ -33,14 +32,6 @@ const App = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-
-  useEffect(() => {
-    // Redirect to home page on refresh only if not already redirected
-    if (!redirected) {
-      setRedirected(true); // Set flag to true to indicate redirection
-      window.location.href = "/";
-    }
-  }, [redirected]);
 
   return (
     <Router>
@@ -120,6 +111,7 @@ const App = () => {
         </Routes>
       </div>
     </Router>
+
   );
 };
 
