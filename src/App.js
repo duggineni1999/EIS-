@@ -15,6 +15,7 @@ import HomePage from "./Components/HomePage";
 const App = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const collapseRef = useRef(null);
+  const [redirected, setRedirected] = useState(false); // Flag to track redirection
 
   const handleToggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
@@ -33,10 +34,13 @@ const App = () => {
     };
   }, []);
 
-  // Redirect to home page on refresh
   useEffect(() => {
-    window.location.href = "/";
-  }, []);
+    // Redirect to home page on refresh only if not already redirected
+    if (!redirected) {
+      setRedirected(true); // Set flag to true to indicate redirection
+      window.location.href = "/";
+    }
+  }, [redirected]);
 
   return (
     <Router>
