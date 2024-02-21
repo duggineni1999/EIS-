@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Switch, Route, Link } from "react-router-dom";
 import ProductTesting from "./Components/ProductTesting";
 import AboutUs from "./Components/AboutUs";
 import EMF from './Components/EMF'
