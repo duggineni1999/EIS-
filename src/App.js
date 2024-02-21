@@ -12,8 +12,6 @@ import PCB from "./Components/PCB"
 import NPI from "./Components/NPI";
 import HomePage from "./Components/HomePage";
 
-import { useState } from 'react';
-
 const App = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const collapseRef = useRef(null);
