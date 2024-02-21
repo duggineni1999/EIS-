@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProductTesting from "./Components/ProductTesting";
 import AboutUs from "./Components/AboutUs";
@@ -12,14 +12,26 @@ import PCB from "./Components/PCB"
 import NPI from "./Components/NPI";
 import HomePage from "./Components/HomePage";
 
-import { useState } from 'react';
-
 const App = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const collapseRef = useRef(null);
 
   const handleToggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (collapseRef.current && !collapseRef.current.contains(event.target)) {
+        setIsCollapsed(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <Router>
@@ -37,7 +49,7 @@ const App = () => {
               </button>
             </div>
 
-            <div className={`collapse navbar-collapse bg-white ps-3 ${isCollapsed ? 'show' : ''}`} id="navbarText">
+            <div className={`collapse navbar-collapse bg-white ps-3 ${isCollapsed ? 'show' : ''}`} id="navbarText" ref={collapseRef}>
               <ul className="navbar-nav position-relative mx-auto mb-2 mb-lg-0 gap-0 gap-xxl-3">
                 <li className="nav-item">
                   <Link className="nav-link fw-bold text-black-50" to="/">Home</Link>
