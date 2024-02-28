@@ -859,491 +859,168 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="py-5" style={{ background: "#F5F5F5" }}>
-        <h6 className="ourclient mt-5">OUR CLIENTS</h6>
-        <h6 className="growth my-4">Growth Enablers</h6>
-        <div className="container d-md-none">
-          <div className="row ">
-            <div className="col-12 col-lg-6">
-              <div className="container-fluid">
-                <div className="row">
-                  <h6 className="p3-growth-row1 my-2 my-sm-3 my-lg-5">
-                    International Customer Base
-                  </h6>
-                  <div className="col-12 col-sm-4 col-lg-4 ">
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className=" img-fluid h-100"
-                          src="Images/silicon.png"
-                          alt=""
-                        />
+      <section className="py-5">
+              <h6 className="ourclient mt-5">OUR CLIENTS</h6>
+              <h6 className="growth my-4">Growth Enablers</h6>
+              <div className="container ">
+                  <div className="row">
+                      <div className="col-12 col-xxl-6">
+                          <div className="container-fluid">
+                              <div className="row">
+                                  <h6 className="p3-growth-row1 my-2 my-sm-3 my-lg-5">International Customer Base</h6>
+                                  <div className="col-4 pe-1">
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/silicon.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/statron.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/tenpao.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/dtds.png" alt="" />
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div className="col-4 pe-1">
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/proxim.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="  d-flex flex-column justify-content-center ">
+                                              <img className="img-fluid" src="/Images/microsemi.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex flex-column justify-content-center ">
+                                              <img className="img-fluid" src="/Images/Wi2Wi.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center ">
+                                              <img className="img-fluid" src="/Images/quintessential.png" alt="" />
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div className="col-4 pe-1">
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/wipro.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/eximus.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/ivativ.png" alt="" />
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+
                       </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/statron.png"
-                          alt=""
-                        />
+                      <div className="col-12 col-xxl-6">
+                          <div className="container-fluid">
+                              <div className="row">
+                                  <h6 className="p3-growth-row1 my-2 my-sm-3 my-lg-5">Domestic Customer Base</h6>
+                                  <div className="col-4 pe-1">
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/bs-techno.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/visiontek.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/hbl.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card border-sm-0 my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex  justify-content-center">
+                                              <img className="img-fluid border-0" src="/Images/cummines.png" alt="" />
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div className="col-4 pe-1">
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/ecil.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center ">
+                                              <img className="img-fluid" src="/Images/totaka.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card border-sm-0  my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex justify-content-center ">
+                                              <img className="img-fluid  border-0" src="/Images/green.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card border-sm-0 my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex  justify-content-center ">
+                                              <img className="img-fluid  border-0 " src="/Images/hin.png" alt="" />
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div className="col-4 pe-1">
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className=" d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/vedang.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex flex-column justify-content-center">
+                                              <img className="img-fluid" src="/Images/kernex.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card border-sm-0 my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex  justify-content-center">
+                                              <img className="img-fluid  border-0" src="/Images/kiot.png" alt="" />
+                                          </div>
+                                      </div>
+                                      <div className="card border-sm-0 my-4" style={{ borderRadius: "0%" }}>
+                                          <div className="d-flex  justify-content-center">
+                                              <img className=" img-fluid border-0" src="/Images/ecled.png" alt="" />
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+
                       </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/tenpao.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/dtds.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
                   </div>
-                  <div className="col-12 col-sm-4 col-lg-4">
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/proxim.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="  d-flex flex-column justify-content-center ">
-                        <img
-                          className="img-fluid"
-                          src="Images/microsemi.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex flex-column justify-content-center ">
-                        <img
-                          className="img-fluid"
-                          src="Images/Wi2Wi.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center ">
-                        <img
-                          className="img-fluid"
-                          src="Images/quintessential.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-sm-4 col-lg-4">
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/wipro.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/eximus.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/ivativ.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  <p className="p3-client-decs my-5">All company, product and service names of the third
+                      party companies used in this website are for
+                      identification purposes only. All these
+                      product names, logos and brands belong
+                      to their respective owners.</p>
               </div>
-            </div>
-            <div className="col-12 col-lg-6">
-              <div className="container-fluid">
-                <div className="row">
-                  <h6 className="p3-growth-row1 my-2 my-sm-3 my-lg-5">
-                    Domestic Customer Base
-                  </h6>
-                  <div className="col-12 col-sm-4 col-lg-4">
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/bs-techno.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/visiontek.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/hbl.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex  justify-content-center">
-                        <img
-                          className="img-fluid mt-3 mb-2"
-                          src="Images/image 13.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-sm-4 col-lg-4">
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/ecil.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center ">
-                        <img
-                          className="img-fluid"
-                          src="Images/totaka.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex justify-content-center ">
-                        <img
-                          className="w-50"
-                          src="Images/image 11.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex  justify-content-center ">
-                        <img
-                          className="img-fluid mt-3 mb-2"
-                          src="Images/image 14.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-sm-4 col-lg-4">
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/vedang.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex flex-column justify-content-center">
-                        <img
-                          className="img-fluid"
-                          src="Images/kernex.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex  justify-content-center">
-                        <img
-                          className="mt-3 mb-3 img-fluid"
-                          src="Images/image 12.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="card my-4" style={{ borderRadius: "0" }}>
-                      <div className="d-flex  justify-content-center">
-                        <img
-                          className=" my-4 img-fluid"
-                          src="Images/download.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p className="p3-client-decs my-5">
-            All company, product and service names of the third party companies
-            used in this website are for identification purposes only. All these
-            product names, logos and brands belong to their respective owners.
-          </p>
-        </div>
-        <div className="container d-none d-md-block">
-          <div className="row ">
-            <div className="col-12 col-lg-6">
-              <div className="container-fluid">
-                <div className="row">
-                  <h6 className="p3-growth-row1 my-5">
-                    International Customer Base
-                  </h6>
-                  <div className="col-4">
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/silicon.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/statron.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/tenpao.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/dtds.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-4">
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex flex-column justify-content-center">
-                        <img className="" src="Images/proxim.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="  d-flex flex-column justify-content-center ">
-                        <img className="" src="Images/microsemi.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex flex-column justify-content-center ">
-                        <img className="" src="Images/Wi2Wi.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center ">
-                        <img
-                          className=""
-                          src="Images/quintessential.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-4">
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/wipro.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/eximus.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-lg-6">
-              <div className="container-fluid">
-                <div className="row">
-                  <h6 className="p3-growth-row1 my-5">
-                    Domestic Customer Base
-                  </h6>
-                  <div className="col-4">
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex flex-column justify-content-center">
-                        <img className="" src="Images/bs-techno.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/visiontek.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex flex-column justify-content-center">
-                        <img className="" src="Images/hbl.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex  justify-content-center">
-                        <img
-                          className="mt-4"
-                          src="Images/image 13.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-4">
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/ecil.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center ">
-                        <img className="" src="Images/totaka.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex justify-content-center ">
-                        <img className=" " src="Images/image 11.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex  justify-content-center ">
-                        <img
-                          className="mt-4"
-                          src="Images/image 14.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-4">
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className=" d-flex flex-column justify-content-center">
-                        <img className="" src="Images/vedang.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex flex-column justify-content-center">
-                        <img className="" src="Images/kernex.png" alt="" />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex  justify-content-center">
-                        <img
-                          className="mt-4"
-                          src="Images/image 12.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="card my-4"
-                      style={{ borderRadius: "0", height: "110px" }}
-                    >
-                      <div className="d-flex  justify-content-center">
-                        <img
-                          className=" mt-4"
-                          src="Images/download.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p className="p3-client-decs my-5">
-            All company, product and service names of the third party companies
-            used in this website are for identification purposes only. All these
-            product names, logos and brands belong to their respective owners.
-          </p>
-        </div>
-      </section>
+          </section >
 
           <section className="container-fluid position-relative py-5" id="section_10">
               <div className="container">
